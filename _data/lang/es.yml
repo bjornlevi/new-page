@@ -3,7 +3,7 @@
 # Licensed under MIT
 
 lng:
-  name: Spahish
+  name: Spanish
   # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
   code: es
   # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
@@ -12,10 +12,10 @@ lng:
   country: ES
   switch_title: ES
   offer:
-    title: Language
-    msg_page: View this page in English.
+    title: Idioma
+    msg_page: Ver esta página en español.
     # if page translation is not available, use this.
-    msg_site: To home
+    msg_site: Ir a inicio
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
@@ -26,29 +26,29 @@ date:
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: Page not found
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  header: Página no encontrada
+  line1: La página que solicitaste no se pudo encontrar.
+  line2: Prueba el menú o la búsqueda del sitio si está disponible.
 
-no_translation_tooltip: No Translation
+no_translation_tooltip: Sin Traducción
 
 navigation:
-  contact_header: Contact
+  contact_header: Contacto
 
-color_scheme_switch_tooltip: Color scheme
+color_scheme_switch_tooltip: Esquema de color
 
 search:
-  placeholder: Search
-  noResultText: No results were found.
+  placeholder: Buscar
+  noResultText: No se encontraron resultados.
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: La imagen no se pudo cargar.
 
 copyright:
-  additional_text: " All rights reserved."
+  additional_text: " Todos los derechos reservados."
 
 creative_commons:
-  some_rights_reserved: Some rights reserved.
+  some_rights_reserved: Algunos derechos reservados.
   # check _data/owner/[language].yml for license type.
   by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
   by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
@@ -71,10 +71,10 @@ post:
     # char or words per minute
     per_minute: 200
   pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    older_post: "← Publicación Anterior"
+    newer_post: "Publicación Más Reciente →"
+    first_post: Primera
+    last_post: Última
   comments:
     noscript: Please enable JavaScript to view the Comments.
     disqus:
@@ -92,13 +92,13 @@ post:
           load_once: Show only this time
           load_and_do_not_ask_again: Always show
   table_of_contents:
-    heading: Contents
+    heading: Contenidos
     tooltip:
-      move: Drag to move
-      close: Close
+      move: Arrastrar para mover
+      close: Cerrar
   share:
-    heading: Share on
-    link_copied: Link copied!
+    heading: Compartir en
+    link_copied: ¡Enlace copiado!
     tooltip:
       # keys need to match with _data/share.yml
       twitter: Twitter
@@ -114,42 +114,42 @@ post-list:
   button_name: Blog
   upside_down_tabs:
     tab:
-      all: All
-      categories: Categories
-      tags: Tags
-      years: Years
-      clear: Clear
-      close: Close
+      all: Todo
+      categories: Categorías
+      tags: Etiquetas
+      years: Años
+      clear: Limpiar
+      close: Cerrar
       tooltip:
-        clear: Clear
-        close: Close
+        clear: Limpiar
+        close: Cerrar
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Tag
-        category: Category
-        year: Year
+        tags: Etiqueta
+        category: Categoría
+        year: Año
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  title: Bienvenido
+  button_name: Inicio
+  new_posts_title: Nuevos Artículos
+  new_posts_show_more_button: Ver Más ...
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: Archivo
+  button_name: Archivo
+  page_header: Archivo
 
 # for about layout
 about:
-  title: About
-  button_name: About
-  email_title: email
+  title: Acerca de
+  button_name: Acerca de
+  email_title: correo electrónico
 
 # for links layout
 links:

@@ -40,5 +40,6 @@ img: ":home-heading.jpg"
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 <div class="introduction">
-    Björn Leví Gunnarsson | Þingmaður Pírata 2016 - 
+    <p>Björn Leví Gunnarsson | Poseł Partii Piratów 2016 - </p>
+    <p>Cały tekst został przetłumaczony z islandzkiego przez ChatGPT</p>
 </div>

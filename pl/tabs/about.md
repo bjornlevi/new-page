@@ -1,10 +1,10 @@
 ---
-layout: home
+layout: about
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_home
+lng_pair: id_about
 
 # image for page specific usage
-img: ":home-heading.jpg"
+img: ":about.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -33,13 +33,12 @@ img: ":home-heading.jpg"
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-# don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-<div class="introduction">
-    <p>Björn Leví Gunnarsson | Member of Parliament of the Pirate Party 2016 - </p>
-    <p>All text is translated from Icelandic by ChatGPT</p>
-</div>
+{%- include util/auto-content-generator.liquid -%}
+{{ website_info_text_first }}
+
+{{ website_info_text_second }}

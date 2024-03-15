@@ -38,6 +38,8 @@ img: ":home-heading.jpg"
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+
 <div class="introduction">
-    Björn Leví Gunnarsson | Þingmaður Pírata 2016 - 
+    <p>Björn Leví Gunnarsson | Депутат Піратської Партії 2016 - </p>
+    <p>Весь текст перекладено з ісландської мови ChatGPT</p>
 </div>
