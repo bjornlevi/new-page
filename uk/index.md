@@ -38,7 +38,6 @@ img: ":home-heading.jpg"
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
 <div class="introduction">
     Björn Leví Gunnarsson | Þingmaður Pírata 2016 - 
 </div>
