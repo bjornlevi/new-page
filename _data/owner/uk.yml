@@ -48,14 +48,14 @@ meta_common_description: "Pistlar og pælingar."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  - github: "https://github.com/bjornlevi"
+  - github: "bjornlevi"
   - email: "bjornlevi@gmail.com"
   #- linkedin: ""
   #- twitter: ""
   #- mastodon: ""
   #- instagram: ""
   #- youtube: ""
-  - facebook: "https://facebook.com/bjornlevi"
+  - facebook: "bjornlevi"
 # to add more, check the _data/const/contact.yml file
 #  - your_new_contact: ""
 

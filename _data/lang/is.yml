@@ -171,9 +171,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Halló
-  welcome: Velkomin
-  sample: Dæmi
+  greetings: 
+  welcome: 
+  sample: 
 
 # for contact form
 contact_form:
