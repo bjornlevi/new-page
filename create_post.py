@@ -3,6 +3,12 @@ import re
 import random
 from datetime import datetime
 import openai
+import hashlib
+
+def generate_lng_pair(title):
+    # This function generates a unique lng_pair based on the filename
+    hash_object = hashlib.sha256(title.encode())
+    return "id_" + hash_object.hexdigest()[:10]
 
 def get_boolean_input(prompt):
     true_values = {'true', 't', '1', 'yes', 'y'}
@@ -59,6 +65,7 @@ def create_new_post(language_folders):
     category = input("Enter the category of the post: ")
     file_path = input("Enter the path to the text file for the post: ")
     translate = get_boolean_input("Translate: True/False? ")
+    post_id = generate_lng_pair(title)
     
     original_text = read_file_content(file_path)
     if original_text is None:
@@ -74,9 +81,9 @@ def create_new_post(language_folders):
 
     # Define the template with user inputs
     template = f"""---
-lng_pair: id_placeholder
+lng_pair: {post_id}
 title: {title}
-author: Your Name Here
+author: Björn Leví Gunnarsson
 category: {category}
 tags: [tag1, tag2]
 img: "{img_filename}"
@@ -91,7 +98,7 @@ date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
     print(f"Original file created: {original_file_path}")
 
-    if translate:
+    if translate: #translate using ChatGPT API
         # Translate the title and text
         translated_titles = translate_text(api_key, title, list(language_folders.keys()))
         translated_texts = translate_text(api_key, original_text, list(language_folders.keys()))
@@ -104,9 +111,9 @@ date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
             # Define the template with user inputs
             template = f"""---
-lng_pair: id_placeholder
+lng_pair: {post_id}
 title: {translated_title}
-author: Your Name Here
+author: Björn Leví Gunnarsson
 category: {category}
 tags: [tag1, tag2]
 img: "{img_filename}"
@@ -119,6 +126,34 @@ date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
                 file.write(template)
 
             print(f"File created in {language}: {file_path}")
+
+    else: #create empty posts
+        # Translate the title and text
+        title = "New article - placeholder"
+        text = "Lorem ipsum - placeholder"
+
+        for language in language_folders:
+            folder = language_folders[language]
+            file_path = os.path.join(folder, filename)
+
+            # Define the template with user inputs
+            template = f"""---
+lng_pair: {post_id}
+title: {title}
+author: Björn Leví Gunnarsson
+category: {category}
+tags: [tag1, tag2]
+img: "{img_filename}"
+date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+---
+
+{text}
+"""
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(template)
+
+            print(f"File created in {language}: {file_path}")
+
 
 # Usage
 language_folders = {

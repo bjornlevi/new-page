@@ -40,6 +40,6 @@ img: ":home-heading.jpg"
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
 <div class="introduction">
-    <p>Björn Leví Gunnarsson | Diputado del Partido Pirata 2016 - </p>
+    <p>Björn Leví Gunnarsson | Miembro del Parlamento del Partido Pirata desde 2016 - </p>
     <p>Todo el texto ha sido traducido del islandés por ChatGPT</p>
 </div>

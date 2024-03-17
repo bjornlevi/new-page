@@ -1,11 +1,11 @@
 ---
-lng_pair: id_placeholder
-title: Hvað er að þessari pólitík?
-author: Your Name Here
-category: Vísir
+lng_pair: id_a324tp8jagp4m84vt
+title: Hvað er að þessari Pólitík?
+author: Björn Leví Gunnarsson
+category: visir
 tags: [tag1, tag2]
-img: ":post_pic6.jpg"
-date: 2024-03-16 00:56:48
+img: ":post_pic5.jpg"
+date: 2024-03-17 20:56:47
 ---
 
 Forsætisráðherra Íslands er spurð hvort hún sé að íhuga forsetaframboð og hún getur ekki svarað þeirri einföldu spurningu með einföldu svari. Hversu undarleg þarf pólitíkin að vera til þess að sitjandi forsætisráðherra getur ekki svarað bara með “nei, ég er ekki að fara að bjóða mig fram í embætti forseta Íslands”? Því á meðan forsætisráðherra svarar spurningunni ekki með skýrum hætti er verið að halda öllum möguleikum opnum.  Ef einhver einstaklingur á Íslandi ætti að svara þessari spurningu á afgerandi hátt þá er það forsætisráðherra. Ráðherrann sem fer með forsetavaldið fyrir hönd forsetans samkvæmt stjórnarskránni.

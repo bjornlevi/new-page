@@ -1,10 +1,8 @@
 ---
-layout: home
+layout: archives
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_home
+lng_pair: id_archives
 
-# image for page specific usage
-img: ":home-heading.jpg"
 # publish date (used for seo)
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
@@ -33,13 +31,5 @@ img: ":home-heading.jpg"
 # exclude from search engines
 #search_engine_exclude: true
 # to disable this page, simply set published: false or delete this file
-# don't forget that this is root index.html. If you disable this, there will be no index.html page to open
-#published: false
+published: false
 ---
-
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-
-<div class="introduction">
-    <p>Björn Leví Gunnarsson | Член парламенту від Піратської партії з 2016 року - </p>
-    <p>Весь текст перекладено із ісландської мови ChatGPT</p>"
-</div>

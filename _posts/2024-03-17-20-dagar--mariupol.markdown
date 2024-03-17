@@ -1,3 +1,13 @@
+---
+lng_pair: id_2c69cc318d
+title: 20 dagar í Mariupol
+author: Björn Leví Gunnarsson
+category: mbl
+tags: [tag1, tag2]
+img: ":post_pic3.jpg"
+date: 2024-02-23 22:05:07
+---
+
 Við lokum oft á stórar og miklar tilfinningar. Við reynum að gleyma þeim þó svo það sé oft ómögulegt. Við getum ekki forðast að takast á við hatrið, sorgina, ástina, söknuðinn, gleðina, vonbrigðin, reiðina. Ef við tökumst ekki á við okkar innri áskoranir þá gerjast þær bara og magnast á einn eða annan hátt.
 
 Í síðustu viku fór ég á heimildarmyndina 20 dagar í Mariupol. Þar upplifði ég tilfinningar haturs, reiði, sorgar, gleði og síðast en ekki síst, hugrekkis. Myndin sýnir upphaf stríðsins í Úkraínu, þegar Rússar réðust inn í Mariupol, frá sjónarhorni fjölmiðlafólksins Mstyslav Chernov og Evgeniy Maloletka. Nánd myndavélarinnar við þær hörmungar, sem hin fólskulega árás olli, staðsetur mann í hringiðu atburða sem engin á að þurfa að upplifa. 
